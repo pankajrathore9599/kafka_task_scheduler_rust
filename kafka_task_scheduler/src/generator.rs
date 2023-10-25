@@ -9,7 +9,7 @@ pub async fn run_generator(brokers: &str) {
         .expect("Producer creation error");
 
     loop {
-        // Simulating task generation (you can adjust this part as needed)
+        // Simulating task generation (We can adjust this part as needed)
         let task = Value::String("This is a new task".into());
 
         // Convert task to string for sending as a message payload
